@@ -1,4 +1,4 @@
-package hei.example;
+package hei.example.com;
 
 public class ConnectDatabase {
     public static void main(String[] args) {
