@@ -8,12 +8,12 @@ import lombok.*;
 @ToString
 @EqualsAndHashCode
 @Builder
-public class Subscriber extends User {
+public class Subscribers extends User {
 
     private long subscriberId;
     private String subscriptionStartDate;
     private String subscriptionEndDate;
-    public Subscriber(Long id, String username, String password) {
+    public Subscribers(Long id, String username, String password) {
         super(id, username, password);
     }
 }
