@@ -1,12 +1,13 @@
-package hei.example.com.model;
+package hei.example.model;
 import lombok.*;
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
+@ToString
 public class Author {
-    private String authorId;
+    private long authorId;
     private String authorName;
     private Sex sex;
 }

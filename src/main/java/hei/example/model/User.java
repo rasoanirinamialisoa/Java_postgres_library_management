@@ -1,4 +1,4 @@
-package hei.example.com.model;
+package hei.example.model;
 
 import lombok.*;
 
@@ -11,6 +11,7 @@ import lombok.*;
 @Builder
 public class User {
     private long id;
-    private String name;
+    private String username;
     private String password;
+
 }

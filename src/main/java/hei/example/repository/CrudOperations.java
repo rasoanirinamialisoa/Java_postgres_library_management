@@ -1,4 +1,4 @@
-package hei.example.com.repository;
+package hei.example.repository;
 import java.util.List;
 public interface CrudOperations<T> {
     List<T> findAll();

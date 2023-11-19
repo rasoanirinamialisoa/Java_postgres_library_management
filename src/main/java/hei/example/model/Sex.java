@@ -1,8 +1,8 @@
-package hei.example.com.model;
+package hei.example.model;
 
 public enum Sex {
-    M("Male"),
-    F("Female");
+    M("male"),
+    F("female");
 
     private final String label;
 

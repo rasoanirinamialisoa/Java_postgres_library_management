@@ -1,4 +1,4 @@
-package hei.example.com.model;
+package hei.example.model;
 
 public class Admin extends User {
 

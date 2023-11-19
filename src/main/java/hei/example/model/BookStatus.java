@@ -1,8 +1,8 @@
-package hei.example.com.model;
+package hei.example.model;
 
 public enum BookStatus {
-    AVAILABLE("Available"),
-    BORROWED("Borrowed");
+    available ("available"),
+    borrowed ("borrowed");
 
     private final String label;
 
