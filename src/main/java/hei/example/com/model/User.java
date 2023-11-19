@@ -3,6 +3,7 @@ package hei.example.com.model;
 import lombok.*;
 
 @AllArgsConstructor
+@NoArgsConstructor
 @Getter
 @Setter
 @ToString
