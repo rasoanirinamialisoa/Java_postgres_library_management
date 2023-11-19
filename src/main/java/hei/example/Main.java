@@ -1,11 +1,7 @@
 package hei.example;
 
 import hei.example.model.*;
-import hei.example.model.BookStatus;
-import hei.example.repository.AuthorCrudOperations;
-import hei.example.repository.BookCrudOperations;
-import hei.example.model.Book;
-import hei.example.repository.SubscribersCrudOperations;
+import hei.example.repository.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import java.sql.Connection;

@@ -20,7 +20,6 @@ public class ConnectDatabase {
             e.printStackTrace();
         }
     }
-
     public Connection openConnection() throws SQLException {
 
         String dbUrl = System.getenv("DB_URL");
